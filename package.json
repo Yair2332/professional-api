@@ -1,0 +1,21 @@
+{
+  "name": "professional-api",
+  "version": "1.0.0",
+  "description": "API for Professional app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "vercel-build": "echo 'No build needed for Node.js'"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.0",
+    "firebase-admin": "^11.0.0",
+    "protobufjs": "^7.5.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
